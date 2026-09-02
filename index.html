@@ -16,18 +16,22 @@
   function send() { 
    emailjs.send("service_akja2ue", "template_1b58092",} {
   name:Vardas}
-  function taskai() {
-   var taskai =  0 // true1 + false1.1 + false1.2 + false1.3 + true2 + false2.1 + false2.3
-      if (taskai == 2){
-    alert ("Sveikiname išlaikius staliaus saugumo testą! Dabar jau gali eiti į dirbtuves.")
-    send()}
-  }
-  else {
-   alert("Nepavyko išlaikyti testo. Perkrauk puslapį ir bandyk iš naujo.")
-  }
  </script>
  <img src="https://sodziausmeistrai.lt/wp-content/uploads/2025/04/logo.svg" alt="Sodžiaus meistrų logo" />
  <h1>Staliaus saugumo testas</h1>
+ <html>
+    <style src="style.css"></style>
+<body>
+    <div class="quiz-container">
+        <div class="question">Question will appear here</div>
+        <div class="options"></div>
+        <div class="result">Your score: <span id="score">0</span></div>
+        <button class="restart-btn">Restart Quiz</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+ <!--
  <hr />
  <pler>Reikia pažymėti tik vieną atsakymo variantą. Už kiekvieną papildomai pažymėtą atsakymą prarasi po tašką. Taip pat reikia teisingą (ir tik teisingą) atsakymą pažymėti ties kiekvienu klausimu, antraip neišlaikysi testo.</pler>
  <hr />
@@ -156,6 +160,5 @@
  <input type="checkbox" name="false20.2" value="true>"> kaulais
  <input type="checkbox" name="false20.1" value="true>"> mesa
  --->
-<button onclick="taskai()">Pateikti</button>
 </body>
 </html>
